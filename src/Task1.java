@@ -11,7 +11,7 @@ public class Task1 {
             case 6 -> "Acceptable";
             case 7, 8 -> "Good";
             case 9, 10 -> "Well";
-            default -> throw new IllegalStateException("Unexpected value: " + numMark);
+            default -> ("Unexpected value: " + numMark);
         };
         System.out.println(mark);
     }
